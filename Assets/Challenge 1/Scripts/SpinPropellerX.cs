@@ -7,7 +7,7 @@ public class SpinPropellerX : MonoBehaviour
 {
     
     //Create our propellerRotationSpeed variable
-    private float rotationSpeed = 100f;
+    private float propellerRotationSpeed = 100f;
     
     // Start is called before the first frame update
     void Start()
@@ -19,6 +19,6 @@ public class SpinPropellerX : MonoBehaviour
     void Update()
     {
         // spin the propeller
-        transform.Rotate(Vector3.forward * rotationSpeed);
+        transform.Rotate(Vector3.forward * propellerRotationSpeed);
     }
 }
